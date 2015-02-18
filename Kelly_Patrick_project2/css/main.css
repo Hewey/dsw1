@@ -1,0 +1,80 @@
+body {
+	background-color: #F5F2EE;
+	width: 720px;
+	margin: 10px auto 10px auto;
+	}
+
+/* Headings */
+
+h1 {
+	font-family: 'PT Serif', serif;
+	width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(34, 139, 34, 0.75);
+	border: 4px double;
+	box-shadow: 5px 5px 5px #223222;
+	}
+
+h2, h3, h4, h5 {
+	background-color: rgba(178, 34, 34, 0.75);
+	border-radius: 25px;
+	font-family: Arial, sans-serif;
+	font-size: 115%;
+	width: 720px;
+	text-align: center;
+	margin:10px auto 10px auto;
+	padding: 20px
+	}
+
+/* Paragraphs */
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	}
+
+#eHistory, #online, #rise {
+	font-weight: bold;
+	font-style: italic;
+	}
+	
+/* Lists and links */
+
+li {
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style: none;
+	width: 325px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	}
+
+a:link {
+	text-decoration: none;
+	color: #BF1BBF
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+
+a:visited {
+	color: #C9361C;
+	}
+	
+a:active {
+	color: #BF1BBF;
+	}
+
+/* images */
+
+figure {
+	width: 450px;
+	height: 400px;
+	margin: 10px auto 10px auto;
+	}
+figcaption {
+	font-family: 'Source Sans Pro', sans-serif;
+	}
