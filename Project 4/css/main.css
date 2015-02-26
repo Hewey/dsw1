@@ -1,5 +1,7 @@
 body {
 	/*background-color: #F5F2EE;*/
+	width: 90%;
+	margin: auto;
 	background: linear-gradient(rgba(219, 219, 210, 0.25),
 	rgba(219, 219, 210, 0.25)
 	),
@@ -140,7 +142,7 @@ a:active {
 /* End */
 
 #end {
-	clear: both;
+	clear: left;
 	width: 100%;
 	text-align: center;
 	margin: 10% auto 10% auto;
