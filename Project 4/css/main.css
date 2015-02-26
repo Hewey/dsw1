@@ -10,10 +10,9 @@ body {
 
 #solid_background {
 	background-color: #F5F2EE;
-	border-radius: 25px;
 	}
 	
-/* Headings */
+/* Header */
 
 
 h1 {
@@ -26,15 +25,12 @@ h1 {
 	border: 4px double;
 	box-shadow: 5px 5px 5px #223222;
 	}
-	
-h5 {
-	background-color: rgba(178, 34, 34, 0.75);
-	font-family: Arial, sans-serif;
-	font-size: 115%;
-	width: 85%;
+
+.nav {
+	display: inline;
 	text-align: center;
-	margin: 5% auto 5% auto;
-	padding: 20px
+	margin: auto;
+	padding: 50px;
 	}
 
 /* Column One */
@@ -137,14 +133,12 @@ a:hover {
 
 a:active {
 	color: #BF1BBF;
-	}ß
+	}
 	
 /* End */
 
 #end {
-	clear: left;
-	width: 100%;
-	text-align: center;
-	margin: 10% auto 10% auto;
+	width: 50%;
+	margin: 10%;
 	}
 	
