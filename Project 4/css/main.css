@@ -22,7 +22,7 @@ h1 {
 	padding: 20px;
 	text-align: center;
 	background-color: rgba(34, 139, 34, 0.75);
-	border: 4px double;
+	border: 4px double #000000;
 	box-shadow: 5px 5px 5px #223222;
 	}
 	
