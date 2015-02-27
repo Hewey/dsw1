@@ -13,10 +13,10 @@
 			<h1 id="top">The Fast Growing World of <abbr title="Electronic Sports">Esports</abbr></h1>
 		</header>
 		<nav>
-			<ul>
-				<li class="nav"><a href="#history">History</a></li>
-				<li class="nav"><a href="#tournaments">Tournaments</a></li>
-				<li class="nav"><a href="#gallery">Gallery</a></li>
+			<ul class="nav">
+				<li><a href="#history">History</a></li>
+				<li><a href="#tournaments">Tournaments</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 			</ul>
 		</nav>
 		 <!-- Intro to Esports --> 
@@ -37,6 +37,23 @@
 			<li><a href="#online"><abbr title="Electronic Sports">Esports</abbr> goes online</a></li>
 			<li><a href="#rise">Rise of global tournaments</a></li>			
 		</ul>
+		<table>
+			<tr>
+				<th scope="rowgroup" class="table_heading" colspan="2">Esports Time Line</th>
+			</tr>
+			<tr>
+				<th scope="row">Early History</th>
+				<td>1972-1989</td>
+			</tr>
+			<tr>
+				<th scope="row" class="midrow">Esports Goes Online</th>
+				<td class="midrow">1990-1999</td>
+			</tr>
+			<tr>
+				<th scope="row">Rise of Tournaments</th>
+				<td>2000 onwards</td>
+			</tr>
+		</table>
 		<p id="eHistory"><strong>Early history (1972-1989)</strong></p>
 		<p>The earliest known video game competition took place on October 19, 1972, at Stanford University for the game Spacewar, where students were invited to an "Intergalactic spacewar olympics" whose grand prize was a year's subscription for Rolling Stone. The Space Invaders Championship held by Atari in 1980 was the earliest large scale video game competition, attracting more than 10,000 participants across the United States, establishing competitive gaming as a mainstream hobby.</p>
 		<p>In the summer of 1981, Walter Day founded a high score record keeping organization called Twin Galaxies. The organization went on to help promote video games and publicize its records through publications such as the Guinness Book of World Records, and in 1983 it created the U.S. National Video Game Team. The team was involved in competitions, such as running the Video Game Masters Tournament for Guinness World Records and sponsoring the North American Video Game Challenge tournament.</p>
@@ -88,6 +105,39 @@
 		</div>
 		</aside>
 		<!-- End of the Gallery -->
+		<!-- Start of form -->
+		<form action="http://www.example.com/form.php" method="post">
+			<fieldset>
+				<legend>Sign up for more information</legend>
+					<p class="form">
+						<label class="title" for="name">Your Name:</label>
+						<input type="text" name="name" id="name">
+						<br>
+						<label class="title" for="email">Your Email:</label>
+						<input type="text" name="email" id="email">
+					</p>
+					<p class="form">
+						<label class="title" for="list">How did you hear about this site?</label>
+						<select name="hear" id="list">
+							<option value="webSearch">Web Search</option>
+							<option value="wordMouth">Word of Mouth</option>
+							<option value="linked">Other Website</option>
+							<option value="other">Other</option>
+						</select>
+					</p>
+					<p class="form">
+						<label class="title">Are you interested in Esports?</label>
+						<input type="radio" name="answer" value="Yes" class="esports">Yes
+						<input type="radio" name="answer" value="No" class="esports">No
+						<br>
+						<label class="title" for="comments">Comments for the site?</label>
+						<textarea rows="4" cols="25" id="comments">Enter your comment here...</textarea>
+					</p>
+					<div id="submit">
+						<input type="submit" value="Register" id="button">
+					</div>
+			</fieldset>
+		</form>
 		<footer>
 		<div id="end">
 		<p><strong>Reference</strong>: <a href="https://en.wikipedia.org/wiki/Electronic_sports#History">https://en.wikipedia.org/wiki/Electronic_sports#History</a></p>
